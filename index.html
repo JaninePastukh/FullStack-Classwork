@@ -4,22 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chocolate</title>
+  <link rel="stylesheet" href="./css/slyles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <!-- Header -->
-  <header>
-    <nav>
-      <a href="">SIMPLY CHOCOLATE <img src="./images/logo-choco.svg" alt="logo chocolate"></a>
-      <ul>
-        <li><a href=""></a>Home</li>
-        <li><a href=""></a>How it’s made?</li>
-        <li><a href=""></a>Chocolate is loved</li>
+  <header class="header">
+    <nav class="header-nav">
+      <a href="" class="header-logo"><span class="header-logo-italic">SIMPLY</span> CHOCOLATE <img class="header-logo-image" src="./images/logo-choco.svg" alt="logo chocolate"></a>
+      <ul class="header-menu-list">
+        <li class="header-menu-item"><a class="header-menu-link" href="">Home</a></li>
+        <li class="header-menu-item"><a class="header-menu-link" href="">How it’s made?</a></li>
+        <li class="header-menu-item"><a class="header-menu-link" href="">Chocolate is loved</a></li>
       </ul>
     </nav>
-    <ul>
-      <li><a href="" target="_blank" rel="noopener noreferrer nofollow"><img src="./images/instagram.svg" alt="instagram"></a></li>
-      <li><a href="" target="_blank" rel="noopener noreferrer nofollow"><img src="./images/facebook.svg" alt="facebook"></a></li>
-      <li><a href="" target="_blank" rel="noopener noreferrer nofollow"><img src="./images/twitter.svg" alt="twitter"></a></li>
+    <ul class="header-soc-list">
+      <li class="header-soc-item"><a class="header-soc-link" href="" target="_blank" rel="noopener noreferrer nofollow"><img src="./images/instagram.svg" alt="instagram"></a></li>
+      <li class="header-soc-item"><a class="header-soc-link" href="" target="_blank" rel="noopener noreferrer nofollow"><img src="./images/facebook.svg" alt="facebook"></a></li>
+      <li class="header-soc-item"><a class="header-soc-link" href="" target="_blank" rel="noopener noreferrer nofollow"><img src="./images/twitter.svg" alt="twitter"></a></li>
     </ul>
   </header>
   <main>
@@ -33,12 +38,12 @@
       <a href="">scroll down</a>
     </section>
     <!-- Section Two Main -->
-    <section>
+    <section class="features">
       <h2 hidden>Features</h2>
       <ul>
         <li>
           <h3>Unsurpassed taste</h3>
-          <p>
+          <p class="features-list-tittle">
             Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that
           simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of
           chocolate bliss.
@@ -46,13 +51,13 @@
         </li>
         <li>
           <h3>Affordable price</h3>
-          <p>Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats.
+          <p class="features-list-tittle">Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats.
           Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and
           indulge in affordable luxury today.</p>
         </li>
         <li>
           <h3>Own production</h3>
-          <p>We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting
+          <p class="features-list-tittle">We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting
           the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.</p>
         </li>
       </ul>
@@ -123,7 +128,7 @@
       </ul>
     </section>
     <!-- Section four How Its Made -->
-    <section>
+    <section id="made">
       <h2>hOW IT’S <span>made?</span></h2>
       <img src="./images/coffe-drink.jpg" 
       alt="Coffe liquid" 
